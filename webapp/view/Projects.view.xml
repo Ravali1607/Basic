@@ -1,0 +1,50 @@
+<mvc:View xmlns:footerbar="sap.ushell.ui.footerbar" xmlns:core="sap.ui.core" controllerName="project1.controller.Projects"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    >
+    <Page id="page" title="{i18n>title}">
+        <content></content>
+       <!-- <content> 
+            <Input type="Text" id="nameId"></Input>
+            <Button press="resultBtn" text="Click"></Button>
+
+            <FlexBox alignItems="Start" justifyContent="Center">
+                <Label text = "EmpId "></Label>
+                <Text text="{/EmpId}"></Text>
+            </FlexBox>
+            <FlexBox alignItems="Start" justifyContent="Center">
+                <Label text = "Name "></Label>
+                <Text text="{/Name}"></Text>
+            </FlexBox>
+
+            <Table headerText="SBP CONSULTING" items = "{path : '/items'}">
+                <columns>
+                    <Column >
+                        <Text text="EmpId"></Text>
+                    </Column>
+                    <Column >
+                        <Text text="Name"></Text>
+                    </Column>
+                </columns>
+                <items>
+                <ColumnListItem >
+                    <cells>
+                        <Text text="{EmpId}"></Text>
+                        <Text text="{Name}"></Text>
+                    </cells>
+                </ColumnListItem>
+                  </items>
+
+            </Table>
+        </content>-->
+
+        <footer>
+        <Bar>
+            <contentRight>
+                <Button text="Open" press="onOpenDialog">
+                </Button>
+            </contentRight>
+        </Bar>
+        </footer>
+    </Page>
+</mvc:View>
